@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutNote"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:background="@drawable/background_note"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_12sdp">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageWithNote"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        app:riv_corner_radius_top_left="@dimen/_10sdp"
+        app:riv_corner_radius_top_right="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTitle"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_13sdp"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSubtitle"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:includeFontPadding="false"
+
+        android:textColor="@color/colorIcons"
+        android:textSize="@dimen/_12sdp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDateTime"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorNoteSubtitleText"
+        android:textSize="@dimen/_7sdp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="@dimen/_8sdp" />
+
+
+
+
+
+</LinearLayout>
